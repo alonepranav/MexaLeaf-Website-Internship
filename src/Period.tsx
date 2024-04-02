@@ -4,31 +4,27 @@ export default function Period() {
     <div className="px-4">
 
       <p className="text-center font-semibold text-3xl">Virtual Internship Period</p>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <div className="flex justify-center gap-24 md:gap-32 items-center flex-wrap">
-        <div className="relative flex justify-center items-center h-40 w-40">
-          <p className="text-white text-3xl text-center leading-snug">1
+
+      <div className="flex justify-center gap-[4.4rem] md:gap-32 items-center flex-wrap text-2xl md:text-3xl mt-20 md:mt-32">
+        <div className="relative flex justify-center items-center  h-28 w-28 md:h-40 md:w-40">
+          <p className="text-white text-center leading-snug">1
             <br />Month</p>
-          <div className="h-40 w-40 -z-10 absolute rotate-45 bg-black"></div>
+          <div className= "h-28 w-28 md:h-40 md:w-40 -z-10 absolute rotate-45 bg-black"></div>
         </div>
-        <div className="relative flex justify-center items-center h-40 w-40">
-          <p className="text-white text-3xl text-center leading-snug">3
+        <div className="relative flex justify-center items-center  h-28 w-28 md:h-40 md:w-40">
+          <p className="text-white text-center leading-snug">3
             <br />Month</p>
-          <div className="h-40 w-40 -z-10 absolute rotate-45 bg-[#7ed957]"></div>
+          <div className= "h-28 w-28 md:h-40 md:w-40 -z-10 absolute rotate-45 bg-[#7ed957]"></div>
         </div>
-        <div className="relative flex justify-center items-center h-40 w-40">
-          <p className="text-white text-3xl text-center leading-snug">6
+        <div className="relative flex justify-center items-center  h-28 w-28 md:h-40 md:w-40">
+          <p className="text-white text-center leading-snug">6
             <br />Month</p>
-          <div className="h-40 w-40 -z-10 absolute rotate-45 bg-black"></div>
+          <div className= "h-28 w-28 md:h-40 md:w-40 -z-10 absolute rotate-45 bg-black"></div>
         </div>
-        <div className="relative flex justify-center items-center h-40 w-40">
-          <p className="text-white text-3xl text-center leading-snug">1
+        <div className="relative flex justify-center items-center  h-28 w-28 md:h-40 md:w-40">
+          <p className="text-white text-center leading-snug">1
             <br />Year</p>
-          <div className="h-40 w-40 -z-10 absolute rotate-45 bg-[#7ed957]"></div>
+          <div className= "h-28 w-28 md:h-40 md:w-40 -z-10 absolute rotate-45 bg-[#7ed957]"></div>
         </div>
       </div>
 
