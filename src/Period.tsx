@@ -1,7 +1,7 @@
 
 export default function Period() {
   return (
-    <div>
+    <div className="px-4">
 
       <p className="text-center font-semibold text-3xl">Virtual Internship Period</p>
       <br />
@@ -9,7 +9,7 @@ export default function Period() {
       <br />
       <br />
       <br />
-      <div className="flex justify-center gap-32 items-center">
+      <div className="flex justify-center gap-24 md:gap-32 items-center flex-wrap">
         <div className="relative flex justify-center items-center h-40 w-40">
           <p className="text-white text-3xl text-center leading-snug">1
             <br />Month</p>

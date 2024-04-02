@@ -1,6 +1,6 @@
 export default function AboutUs() {
     return (
-        <div className="flex justify-center items-center gap-20 py-20 px-40">
+        <div className="flex justify-center items-center gap-5 md:gap-20 py-20 px-3 md:px-40 flex-col md:flex-row">
             <div className="">
                 <img src="/image1.png" className="h-96" alt="" />
             </div> 
