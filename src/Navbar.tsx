@@ -10,19 +10,19 @@ export default function Navbar() {
             <img className="h-10 w-40" src="/logo.png" alt="" />
 
             <ul className="hidden md:flex gap-14 items-center text-xl font-semibold">
-                <a href="#">Home</a>
+                <a href="/">Home</a>
                 <a href="#">About</a>
-                <a href="#">Internship</a>
+                <a href="/internship">Internship</a>
                 <a href="#">Contact</a>
                 <a href="#">Login</a>
             </ul>
 
             {
                 hide &&
-                <ul className="flex md:hidden gap-14 flex-col absolute top-16 py-7 shadow-md shadow-slate-300 bg-[#e0f4ff] left-0 pl-7 w-full text-lg font-semibold">
-                    <a href="#">Home</a>
+                <ul className="flex md:hidden gap-7 flex-col absolute top-16 py-7 shadow-md shadow-slate-300 bg-[#e0f4ff] left-0 pl-7 w-full text-lg font-semibold">
+                    <a href="/">Home</a>
                     <a href="#">About</a>
-                    <a href="#">Internship</a>
+                    <a href="/internship">Internship</a>
                     <a href="#">Contact</a>
                     <a href="#">Login</a>
                 </ul>
